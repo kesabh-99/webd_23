@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height : 50px ; 
+    background-color: black ;
+}
+ .navbar ul{
+     list-style: none ;
+     /* display : flex ;  */
+ }
+ .navbar ul li{
+     float : left ; 
+     padding : 0px 20px ; 
+     line-height: 50px ;
+     color : white ; 
+     font-size: 18px ;
+     transition : all 0.3s ;
+ }
+ .navbar ul li:hover{
+     font-size: 20px ;
+     background-color: rgb(29, 27, 27);
+     text-shadow: 0px 0px 3px gold;
+ }
+ .navbar h1{
+     color : white ;
+     float : right;
+     margin-right : 20px;
+     transition: all 1s;
+     cursor: pointer;
+ }
+ .navbar img{
+     float: right;
+     width : 50px ; 
+     height : 50px ; 
+ }
+
+
+.first,
+.second,
+.third,
+.fourth {
+    min-height: 90%;
+    background-image: url(i1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white    ;
+}
+
+.first-text,
+.second-text,
+.contact {
+    min-height: 500px;
+    background-color: darkgray;
+}
+
+.second,
+.third,
+.fourth {
+    min-height: 400px;
+}
+
+.first {
+    position: relative;
+}
+
+.second {
+    background-image: url(i2.jpg);
+}
+
+.third {
+    background-image: url(i3.jpg);
+    min-height: 80%;
+}
+
+.fourth {
+    background-image: url(i4.jpg);
+}
+
+.first .content {
+    position: absolute;
+    top: 33%;
+    left: 34%;
+    text-align: center;
+}
+
+.first .content h1 {
+    font-size: 50px;
+    font-family: cursive;
+    margin: 20px;
+    text-shadow: 0px 0px 10px purple;
+}
+
+.first .content button {
+    padding: 18px;
+    width: 300px;
+    font-size: 40px;
+    font-family: algerian;
+    background-color: rgb(27, 26, 26);
+    border: black 1px solid;
+    cursor:pointer ;
+    color : white ; 
+    border-radius: 4px;
+}
+.first .content button:hover{background-color: gray;}
+
+.first-text {
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+    background-color: black;
+    color: white ;
+}
+.first-text  table td{
+    font-size: 18px;
+    font-family: forte;
+}
+.second-text {
+    text-align: center;
+    background: black ; 
+    color : white ;
+    padding : 3% ; 
+}
+.second-text .menu {
+    background-color: rgb(34, 31, 31);
+    border-radius: 7px;
+    border-bottom: 2px solid white;
+    margin-left :  15%  ; 
+    margin-right: 15%;
+    padding: 3% ; ;
+    box-sizing: border-box;
+    font-family: arial  ;
+}
+.second-text .menu button {
+    background-color: white;
+    color:darkgray;
+    padding : 10px ; 
+    font-size: 17px;
+     float: right;
+    border-radius : 10px;
+    outline: none;
+    font-family: forte;
+    margin-top : -4% ; 
+    
+}
+
+.second-text .menu h2,p {
+    text-align: left;
+    margin : 20px ;     
+}
+
+.contact{
+    text-align: center;
+    background-color: black;
+    color : white ;
+    font-family: cursive;
+    padding : 5%  10% ; 
+}
+.contact input, textarea{
+    width : 75% ;
+    height: 30px;
+    padding : 10px ; 
+    font-family: cursive;
+    margin : 10px ; 
+    border-radius: 5px ; 
+    font-size: 16px;
+}
+.contact button {
+    width: 75%;
+    height: 34px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: cursive;
+    padding: 3px;
+}
+.contact button:hover, .contact input:hover, textarea:hover, .contact input:focus, textarea:focus{
+    background-color: rgba(189, 165, 165, 0.829);
+}
+
+.footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+    /* display:flex ; 
+flex-direction: column; */
+}
+
+.footer .icons {
+    height: 80%;
+    border: white 2px solid;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+}
+
+.footer .text {
+    height: 20%;
+    border: white 2px solid;
+    width: 100%;
+    display: flex ; 
+    justify-content: space-between;
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.navbar {
+    opacity: 0.5;
+}
+
+.navbar:hover {
+    opacity: 1;
+}
+
+/* seperate boxes of faq, copyright, t&c */
+.footer .f_box2{
+    height : 100% ; 
+    width : 20%;
+    line-height : 40px;
+    text-align: center;
+}
+.footer .icons img{
+    border-radius: 50%;
+    margin : 0px 30px ; 
+    width : 35px;
+    height : 35px; 
+}
+.icons img:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 5px gray;
+}
